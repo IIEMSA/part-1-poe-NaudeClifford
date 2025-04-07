@@ -1,6 +1,5 @@
 using CLDV6211POEProject.Models;
 using Microsoft.EntityFrameworkCore;
-using SixLabors.ImageSharp.Web.DependencyInjection;
 
 namespace CLDV6211POEProject
 {
@@ -12,12 +11,6 @@ namespace CLDV6211POEProject
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
-            builder.Services.AddImageSharp(options =>
-            {
-                options.BrowserMaxAge = TimeSpan.FromDays(7);
-                options.CacheMaxAge = TimeSpan.FromDays(365);
-            });
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -32,7 +25,6 @@ namespace CLDV6211POEProject
                 app.UseHsts();
             }
 
-            app.UseImageSharp();
             app.UseHttpsRedirection();
             app.UseRouting();
 

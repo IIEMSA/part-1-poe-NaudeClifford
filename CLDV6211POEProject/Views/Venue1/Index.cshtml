@@ -27,7 +27,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.ImageURL)
             </th>
-            <th></th>
+
         </tr>
     </thead>
     <tbody>
@@ -46,7 +46,9 @@
                 @Html.DisplayFor(modelItem => item.Capacity)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ImageURL)
+                <img src="@Html.DisplayFor(modelItem => item.ImageURL)" alt="Image Loading">
+                </td>
+            <td>
 
             </td>
                 <td>

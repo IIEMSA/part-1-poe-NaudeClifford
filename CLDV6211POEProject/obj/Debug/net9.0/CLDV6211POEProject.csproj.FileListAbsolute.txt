@@ -438,3 +438,4 @@ C:\Users\lab_services_student\Documents\GitHub\part-1-poe-NaudeClifford\CLDV6211
 C:\Users\lab_services_student\Documents\GitHub\part-1-poe-NaudeClifford\CLDV6211POEProject\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
 C:\Users\lab_services_student\Documents\GitHub\part-1-poe-NaudeClifford\CLDV6211POEProject\bin\Debug\net9.0\System.Formats.Asn1.dll
 C:\Users\lab_services_student\Documents\GitHub\part-1-poe-NaudeClifford\CLDV6211POEProject\bin\Debug\net9.0\System.Text.Json.dll
+C:\Users\lab_services_student\Documents\GitHub\part-1-poe-NaudeClifford\CLDV6211POEProject\bin\Debug\net9.0\SixLabors.ImageSharp.dll
